@@ -24,7 +24,7 @@ html, body{
 .hero-section{
     display: grid;
     grid-template-rows: 80px 1fr;
-    height: 100vh;
+    height: max-content;
     width: 100%;
     background: url('./images/bg-hero-desktop.svg') no-repeat 0% 0%/cover;
     background-color: var(--hero-bg-color);
